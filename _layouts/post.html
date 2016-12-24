@@ -11,16 +11,16 @@ layout: default
     header.intro-header{
         position: relative;
         background-image:
-        {% if page.header-img %}
-            {% if page.header-img contains 'http' %}
-                url('{{ page.header-img }}')
+            {% if page.header-img %}
+                {% if page.header-img contains 'http' %}
+                    url('{{ page.header-img }}')
+                {% else %}
+                    url('{{ site.baseurl }}/{{ page.header-img }}')
+                {% endif %}
             {% else %}
-                url('{{ site.baseurl }}/{{ page.header-img }}')
+                url('{{ site.baseurl }}/{{ site.header-img }}')
             {% endif %}
-        {% else %}
-            url('{{ site.baseurl }}/{{ site.header-img }}')
-        {% endif %}
-    }
+        }
 
     {% if page.header-mask %}
     header.intro-header .header-mask{
@@ -71,7 +71,7 @@ layout: default
 
                 <hr style="visibility: hidden;">
 
-                {% if site.duoshuo_share && site.duoshuo_username %}
+                {% if site.duoshuo_share and site.duoshuo_username %}
                 <!-- 多说 Share start -->
                 <div class="ds-share"
                     style="text-align: right"
@@ -171,7 +171,7 @@ layout: default
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
-                            {% if tag[1].size > {{site.featured-condition-size}} %}
+                            {% if tag[1].size >  site.featured-condition-size  %}
                 				<a href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
                                     {{ tag[0] }}
                                 </a>
