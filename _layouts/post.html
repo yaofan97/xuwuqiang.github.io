@@ -10,8 +10,16 @@ layout: default
 <style type="text/css">
     header.intro-header{
         position: relative;
-        /*background-image:{% if page.header-img %}url('{{ site.baseurl }}/{{ page.header-img }}'){% else %}url('{{ site.baseurl }}/{{ site.header-img }}'){% endif %})*/
-        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
+        background-image:
+        {% if page.header-img %}
+            {% if page.header-img contains 'http' %}
+                url('{{ page.header-img }}')
+            {% else %}
+                url('{{ site.baseurl }}/{{ page.header-img }}')
+            {% endif %}
+        {% else %}
+            url('{{ site.baseurl }}/{{ site.header-img }}')
+        {% endif %}
     }
 
     {% if page.header-mask %}
