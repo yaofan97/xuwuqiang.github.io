@@ -25,4 +25,4 @@
         "push"   : "git push origin master --tag",
         "cafe"   : "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
     }
-}
+} 

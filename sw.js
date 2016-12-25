@@ -17,7 +17,7 @@ const HOSTNAME_WHITELIST = [
 
 
 // The Util Function to hack URLs of intercepted requests
-const getFixedUrl = (req) => {
+const getFixedUrl = (req) => { 
   var now = Date.now();
   url = new URL(req.url)
 
