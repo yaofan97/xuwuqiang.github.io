@@ -16,7 +16,7 @@ tags:
 > centos6 默认安装的mysql是5.1版本的，不能存储emoji表情，需要5.5以上才支持utf8mb4，我索性下了个5.7的给安上。
 
 
- 1. 查看当前本地仓库mysql(存在不一定是本机已安装的意思,可以理解成一个资源文件)
+1. 查看当前本地仓库mysql(存在不一定是本机已安装的意思,可以理解成一个资源文件)
 
 	```
 	rpm -qa | grep mysql
@@ -29,20 +29,20 @@ tags:
 	```
 
 
- 3. 打开mysql的官网    
+ 2. 打开mysql的官网    
 
- ```
- http://dev.mysql.com/downloads/repo/yum/
-```
+ 	```
+ 	http://dev.mysql.com/downloads/repo/yum/
+	```
 
- 4. 根据需要选择mysql版本，这里我选择第二个
+ 3. 根据需要选择mysql版本，这里我选择第二个
  　![](http://img.blog.csdn.net/20160825104425655)
  　
 
- 5. 无需注册，地址就在这个页面上
+ 4. 无需注册，地址就在这个页面上
  ![](http://img.blog.csdn.net/20160825104533203)
 
- 6. 拷贝这个地址 ，在终端下输入
+ 5. 拷贝这个地址 ，在终端下输入
  
 
 	```
@@ -53,7 +53,7 @@ tags:
 		yum install mysql-community-server
 	```
 
- 7. 拷贝这个地址 ，在终端下输入
+ 6. 拷贝这个地址 ，在终端下输入
 
    
 
@@ -68,15 +68,17 @@ tags:
 
  
 
- - 修改字符集
+## 修改字符集
 	 
-
+	
 	```
+	# 编辑配置文件
 	vi /etc/my.cnf
 	```
-	 下面是设置为utfmb4的字符集
+
 
 	```
+	# 下面是设置为utfmb4的字符集
 	[client]
 	default-character-set = utf8mb4
 	
