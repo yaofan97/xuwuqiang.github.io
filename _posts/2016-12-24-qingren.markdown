@@ -1,12 +1,12 @@
 ---
-layout:     post
-title:      "曼特莱斯情人"
-subtitle:   "渡边淳一展现的畸形爱恋"
-date:       2016-12-24 11:14:00
-author:     "Lockiee"
-header-img: "http://pic.baike.soso.com/p/20140219/20140219224907-2037965288.jpg"
-header-mask: 0.3
-catalog:    false
+layout:     	post
+title:      	"曼特莱斯情人"
+subtitle:   	"渡边淳一展现的畸形爱恋"
+date:       	2016-12-24 11:14:00
+author:     	"Lockiee"
+header-img: 	"http://pic.baike.soso.com/p/20140219/20140219224907-2037965288.jpg"
+header-mask: 	0.3
+catalog:    	false
 tags:
     - 阅读
     - 情感

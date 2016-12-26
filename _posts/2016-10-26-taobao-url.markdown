@@ -1,12 +1,12 @@
 ---
-layout: post
-title:  "html实体与转义"
-subtitle:   "subtitle"
-date:   2016-10-25 19:45:06 +0800
-author:     "Lockiee"
-header-img: "img/6679647_1431413582772_1920x1080.jpg"
-header-mask: 0.3
-catalog:    false
+layout: 		post
+title:  		"html实体与转义"
+subtitle:   	"subtitle"
+date:  			2016-10-25 19:45:06 +0800
+author:     	"Lockiee"
+header-img: 	"img/6679647_1431413582772_1920x1080.jpg"
+header-mask: 	0.3
+catalog:    	false
 tags:
     - php
     - 日常小bug
