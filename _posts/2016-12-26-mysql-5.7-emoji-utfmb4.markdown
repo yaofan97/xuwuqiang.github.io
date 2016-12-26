@@ -29,10 +29,11 @@ tags:
 	```
 
 
- 3. 打开mysql的官网      
- 
- http://dev.mysql.com/downloads/repo/yum/
+ 3. 打开mysql的官网    
 
+ ```
+ http://dev.mysql.com/downloads/repo/yum/
+```
 
  4. 根据需要选择mysql版本，这里我选择第二个
  　![](http://img.blog.csdn.net/20160825104425655)
@@ -74,6 +75,7 @@ tags:
 	vi /etc/my.cnf
 	```
 	 下面是设置为utfmb4的字符集
+
 	```
 	[client]
 	default-character-set = utf8mb4
@@ -87,13 +89,15 @@ tags:
 	collation-server = utf8mb4_unicode_ci
 	init_connect='SET NAMES utf8mb4'
 	```
+
 如果重新启动mysql报错：mysql daemon failed to restart.
 注意一下/etc/my.conf中mysqld下一行
 ![这里写图片描述](http://img.blog.csdn.net/20161102131150296)
 这行注释掉 否则 开不起来哟
 	
 
- ##- 附录1
+ ## 附录1
+
  #### Q:忘记密码怎么办？
 
 	```
@@ -116,7 +120,8 @@ tags:
 	
 	quit;
 	```
- ##- 附录2
+	
+ ## 附录2
  
 	Q:远程连接该怎么设置？
 		
