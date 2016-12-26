@@ -4,7 +4,9 @@ title:      	"见识到宇宙之外的世界"
 subtitle:   	"大刘带你领略你不知道的宇宙"
 date:       	2016-12-26 11:14:00
 author:     	"Lockiee"
-header-img: 	"https://a-ssl.duitang.com/uploads/item/201504/30/20150430191024_aShGM.jpeg"
+#header-img: 	"https://a-ssl.duitang.com/uploads/item/201504/30/20150430191024_aShGM.jpeg"
+header-img: 	"https://a-ssl.duitang.com/uploads/blog/201504/30/20150430002913_JMQtW.jpeg"
+#header-img: 	"https://a-ssl.duitang.com/uploads/item/201504/30/20150430191431_PHySw.jpeg"
 header-mask: 	0.3
 catalog:    	false
 tags:
