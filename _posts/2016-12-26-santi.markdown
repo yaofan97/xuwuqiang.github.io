@@ -4,7 +4,7 @@ title:      	"见识到宇宙之外的世界"
 subtitle:   	"大刘带你领略你不知道的宇宙"
 date:       	2016-12-26 11:14:00
 author:     	"Lockiee"
-header-img: 	"http://pic.baike.soso.com/p/20140219/20140219224907-2037965288.jpg"
+header-img: 	"https://a-ssl.duitang.com/uploads/item/201504/30/20150430191024_aShGM.jpeg"
 header-mask: 	0.3
 catalog:    	false
 tags:
@@ -46,3 +46,8 @@ tags:
 
 # 末了
 这虽是大刘的创作，但也包含了许多科学道理，人类认识的宇宙确实是寥寥无几。
+
+# 附
+[三体历史纪元轴 → ](http://img.blog.csdn.net/20161226101836616?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvenp6Zm9y/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+[有意思的cos ->](http://ww1.sinaimg.cn/mw690/a8ba1334gw1ep37t3xi12j20jgi6je84.jpg)
