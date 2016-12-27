@@ -4,7 +4,7 @@ title:      	"centos 6.5下rpm yum仓库在线安装mysql5.7"
 subtitle:   	""
 date:       	2016-08-25 00:00:00
 author:     	"Lockiee"
-header-img: 	"https://a-ssl.duitang.com/uploads/item/201504/30/20150430191431_PHySw.jpeg"
+header-img: 	"http://oearks7ko.bkt.clouddn.com/blog/jpg/20150430191431_PHySw.jpeg"
 header-mask: 	0.3
 catalog:    	false
 tags:
