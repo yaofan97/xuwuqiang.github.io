@@ -1,0 +1,52 @@
+---
+layout: 		post
+title:  		"Linux命令"
+subtitle:   	""
+date:  			2016-12-30 00:00:00 +0800
+author:     	"Lockiee"
+header-img: 	"http://oearks7ko.bkt.clouddn.com/blog/jpg/139-16120G14527.jpg"
+header-mask: 	0.3
+catalog:    	false
+tags:
+    - linux
+---
+> linux命令不记下来我还真记不住。
+
+
+```
+
+crontab -e   		 		#创建定时任务
+* * * * * command    		#分 时 日 月 年 命令
+/etc/init.d/crond restart	#重启cron
+vi /var/log/cron
+
+mysql -V  					#查看mysql版本
+
+chmod +x filename			#赋予文件执行权限
+
+
+```
+
+> 安装php5.6
+```
+rpm -Uvh http://ftp.iij.ad.jp/pub/linux/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm
+
+rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+
+yum install --enablerepo=remi --enablerepo=remi-php56 php php-gd php-opcache php-devel php-mbstring php-mcrypt php-mysqlnd php-phpunit-PHPUnit php-pecl-xdebug php-pecl-xhprof
+
+php -v
+```
+
+> ftp
+```
+# 增加一个ftp用户(增加了一个属于ftp用户组的test用户)
+useradd -g ftp  -s /sbin/nologin -d /var/www/project test
+
+# 编辑vsftpd.conf
+cd /etc/vsftpd
+vi vsftpd.conf  #当 chroot_list_enable=yes，chroot_local_user=no时，在/etc/vsftpd/chroot_list文件中 列出的用户，不能切换到站点根目录的上级目录；未在文件中列出的用户，可以切换到上级目录。
+
+
+
+```
