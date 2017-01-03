@@ -28,6 +28,7 @@ chmod +x filename			#赋予文件执行权限
 ```
 
 > 安装php5.6
+
 ```
 rpm -Uvh http://ftp.iij.ad.jp/pub/linux/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm
 
@@ -39,6 +40,7 @@ php -v
 ```
 
 > ftp
+
 ```
 # 增加一个ftp用户(增加了一个属于ftp用户组的test用户)
 useradd -g ftp  -s /sbin/nologin -d /var/www/project test
