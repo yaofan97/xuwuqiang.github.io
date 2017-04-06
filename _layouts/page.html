@@ -194,6 +194,16 @@ layout: default
                     {% endfor %}
                 </ul>
                 {% endif %}
+                <!-- My Books -->
+                {% if site.books %}
+                <hr>
+                <h5>BOOKS</h5>
+                <ul class="list-inline">
+                    {% for book in site.books %}
+                        <li><a href="{{book.href}}">{{book.title}}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
     		</div>
         {% endif %}
 	</div>

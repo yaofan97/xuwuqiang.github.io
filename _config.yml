@@ -70,7 +70,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "虽然我读得慢，但是我读得细啊。"
+sidebar-about-description: "一期一会。"
 sidebar-avatar: /img/header-img.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -88,7 +88,7 @@ service-worker: true
 
 
 # Friends
-friends: [
+# friends: [
     # {
     #     title: "Su",
     #     href: "http://su.gallery/"
@@ -123,4 +123,23 @@ friends: [
     #     title: "前端神盾局",
     #     href: "http://wepiaofei.github.io/blog/"
     # }
-]
+# ]
+
+# BOOKS read_status 1未读 2在读 3已读
+ books:[
+    {
+        "title":"围城",
+        "href": "https://book.douban.com/subject/1855364",
+        "read_status":3
+    },
+    {
+        "title":"三体",
+        "href": "https://book.douban.com/subject/2567698",
+        "read_status":3
+    },
+    {
+        "title":"百年孤独",
+        "href": "https://book.douban.com/subject/6082808",
+        "read_status":2
+    }
+ ]
