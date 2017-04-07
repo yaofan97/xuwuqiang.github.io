@@ -126,7 +126,7 @@ service-worker: true
 # ]
 
 # BOOKS read_status 1未读 2在读 3已读
- mybooks : [
+ mybooks: [
     {
         title: "围城",
         href: "https://book.douban.com/subject/1855364"
