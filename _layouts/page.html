@@ -82,6 +82,21 @@ layout: default
                 col-xs-12
                 sidebar-container
             ">
+
+                <!-- My Books -->
+                {% if site.books %}
+                <hr>
+                <h5>BOOKS</h5>
+                <ul class="list-inline">
+                    {% for book in site.books %}
+                        <!-- {% if book.read_status == 3 %}
+                            
+                        {% endif %} -->
+                        <li><a href="{{book.href}}">{{book.title}}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
@@ -194,17 +209,9 @@ layout: default
                     {% endfor %}
                 </ul>
                 {% endif %}
-                <!-- My Books -->
-                {% if site.books %}
-                <hr>
-                <h5>BOOKS</h5>
-                <ul class="list-inline">
-                    {% for book in site.books %}
-                        <li><a href="{{book.href}}">{{book.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
+                
     		</div>
         {% endif %}
 	</div>
 </div>
+    
