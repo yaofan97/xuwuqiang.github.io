@@ -56,7 +56,7 @@ kramdown:
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 # 网易云跟帖
-wangyiyun_productKey:6d0b4f01b0a140ddac16fe356985c469
+wangyiyun_productKey:"6d0b4f01b0a140ddac16fe356985c469"
 
 
 # Analytics settings
