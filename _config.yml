@@ -149,8 +149,8 @@ books : [
         href: "https://book.douban.com/subject/6082808",
         read_status: 2
     },{
-        title:"白鹿原",
-        href:"https://book.douban.com/subject/10564071/",
+        title: "白鹿原",
+        href: "https://book.douban.com/subject/10564071/",
         read_status: 2
     }
 ]
