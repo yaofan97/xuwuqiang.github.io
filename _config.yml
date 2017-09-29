@@ -1,20 +1,20 @@
 # Site settings
-title: Lockiee Blog
-SEOTitle: Lockiee的博客 | Lockiee Blog
+title: YaoFan Blog
+SEOTitle: YaoFan的博客 |YaoFan Blog
 header-img: http://oearks7ko.bkt.clouddn.com/blog/jpg/timg.jpg
-email: lockiee@outlook.com
-description: "关于读书 | 这里是 @Lockiee 的个人博客，与你一起发现更大的世界。"
+email: yaofan97@hotmail.com
+description: "关于读书 | 这里是 @YaoFan 的个人博客，与你一起发现更大的世界。"
 keyword: "Lockiee"
-url: "http://lockiee.com"              # your host, for absolute URL
+url: "http://yaofan97.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     _StrayZzz
-zhihu_username:     xu-mou-mou-43-55
-github_username:    xuwuqiang
+weibo_username:     yaofan97
+zhihu_username:     yao-fan-79-75
+github_username:    yaofan97
 #twitter_username:  huxpro
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
@@ -56,11 +56,11 @@ kramdown:
 # duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 # 网易云跟帖
-wangyiyun_productKey: "6d0b4f01b0a140ddac16fe356985c469"
+#wangyiyun_productKey: "6d0b4f01b0a140ddac16fe356985c469"
 
 
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
