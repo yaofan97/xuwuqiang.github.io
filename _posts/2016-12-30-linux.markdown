@@ -2,8 +2,8 @@
 layout: 		post
 title:  		"Linux命令"
 subtitle:   	""
-date:  			2016-12-30 00:00:00 +0800
-author:     	"Lockiee"
+date:  			2017-09-17 00:00:00 +0800
+author:     	"YaoFan"
 header-img: 	"http://oearks7ko.bkt.clouddn.com/blog/jpg/139-16120G14527.jpg"
 header-mask: 	0.3
 catalog:    	false
