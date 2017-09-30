@@ -4,12 +4,12 @@ title:      	"Android蓝牙聊天软件"
 subtitle:   	"Android蓝牙技术"
 date:       	2017-09-30 08:30:00
 author:     	"YaoFan"
-header-img: 	"http://pic.baike.soso.com/p/20140219/20140219224907-2037965288.jpg"
+header-img: 	"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1506758872221&di=c69f053a2f1b97f6c5231c2fcbfe184d&imgtype=0&src=http%3A%2F%2Fattachments.gfan.com%2Fattachments2%2Fday_110423%2F1104232300963b89b30402d033.jpg"
 header-mask: 	0.3
 catalog:    	false
 tags:
     - Android
-    
+
 ---
 
 

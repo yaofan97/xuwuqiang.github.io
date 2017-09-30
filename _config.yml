@@ -3,8 +3,8 @@ title: YaoFan Blog
 SEOTitle: YaoFan的博客 |YaoFan Blog
 header-img: http://oearks7ko.bkt.clouddn.com/blog/jpg/timg.jpg
 email: yaofan97@hotmail.com
-description: "关于读书 | 这里是 @YaoFan 的个人博客，与你一起发现更大的世界。"
-keyword: "Lockiee"
+description: "关于读书 | 这里是 @YaoFan 的个人博客，与你一起发现新世界。"
+keyword: "YaoFan"
 url: "http://yaofan97.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,7 +12,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     yaofan97
+weibo_username:     _yaofan97
 zhihu_username:     yao-fan-79-75
 github_username:    yaofan97
 #twitter_username:  huxpro
