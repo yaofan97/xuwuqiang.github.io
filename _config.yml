@@ -1,6 +1,6 @@
 # Site settings
-title: YaoFan Blog
-SEOTitle: YaoFan的博客 |YaoFan Blog
+title: YaoFan's Blog
+SEOTitle: 姚繁的博客 |YaoFan's Blog
 header-img: http://oearks7ko.bkt.clouddn.com/blog/jpg/timg.jpg
 email: yaofan97@hotmail.com
 description: "关于读书 | 这里是 @YaoFan 的个人博客，与你一起发现新世界。"
@@ -15,7 +15,7 @@ RSS: false
 weibo_username:     5014710507
 zhihu_username:     yao-fan-79-75
 github_username:    yaofan97
-#twitter_username:  huxpro
+twitter_username:  yaofanme
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -71,7 +71,7 @@ kramdown:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "一期一会。"
+sidebar-about-description: "一期一会"
 sidebar-avatar: /img/header-img.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -135,10 +135,6 @@ books : [
     },{
         title: "挪威的森林",
         href: "https://book.douban.com/subject/2159042/",
-        read_status: 3
-    },{
-        title: "情人",
-        href: "https://book.douban.com/subject/26665723/",
         read_status: 3
     },{
         title: "围城",
