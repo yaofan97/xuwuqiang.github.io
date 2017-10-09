@@ -4,7 +4,7 @@ title:  		"Linux命令"
 subtitle:   	""
 date:  			2017-09-17 00:00:00 +0800
 author:     	"YaoFan"
-header-img: 	"http://oearks7ko.bkt.clouddn.com/blog/jpg/139-16120G14527.jpg"
+header-img: 	"https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3192929319,3514536383&fm=27&gp=0.jpg"
 header-mask: 	0.3
 catalog:    	false
 tags:
